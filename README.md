@@ -2,6 +2,8 @@
 
 A very simple Jekyll theme for publishing short updates or images.
 
+Demo at [This day’s portion](https://www.thisdaysportion.xyz).
+
 ## Pagination
 
 Includes `Gemfile` and `_config.yml` entries to enable pagination. Does mean you won't be able to use this theme on Github Pages. Try [Netlify](https://netlify.com) instead and you'll get free SSL too.
