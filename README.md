@@ -22,6 +22,8 @@ Set the following in `_config.yml`:
 - `title`
 - `tagline` (displayed under the site title)
 - `baseurl`
+- `site.analytics_id` (your Google Analytics ID)
+- `credit` (toggle link to Github repo in site footer)
 
 ## Posts
 
