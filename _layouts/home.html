@@ -1,0 +1,25 @@
+{% include header.html %}
+
+{% for post in paginator.posts %}
+
+    {% include article.html %}
+
+{% endfor %}
+
+<footer class="mt3">
+
+{% if paginator.next_page %}
+
+<a class="gray hover-dark-green" href="{{ paginator.next_page_path }}">Older</a>
+
+{% endif %}
+
+{% if paginator.previous_page %}
+
+<a class="gray hover-dark-green" href="{{ paginator.previous_page_path }}">Newer</a>
+
+{% endif %}
+
+</footer>
+
+{% include footer.html %}

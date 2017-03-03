@@ -1,0 +1,37 @@
+<!doctype html>
+
+<html{% if site.lang %} lang="{{ site.lang }}"{% endif %}>
+
+    <head>
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        {% if site.title %}<title>{{ site.title }}</title>{% endif %}
+
+        <link rel="stylesheet" href="https://unpkg.com/tachyons/css/tachyons.min.css">
+        <link rel="alternate" type="application/atom+xml" {% if site.title %}title="{{ site.title }}"{% endif %} {% if site.lang %} hreflang="{{ site.lang }}"{% endif %} href="{{ site.baseurl }}/atom.xml">
+
+        <style>
+
+            html {
+                font-size: calc(100% + 0.1vw);
+            }
+
+            a {
+                text-decoration: none;
+            }
+
+        </style>
+
+    </head>
+
+    <body class="lh-copy sans-serif bg-white dark-gray pa2 pa5-ns">
+
+        {% if site.tagline %}<header class="mb4 mb5-ns">{% else %}<div class="mb4 mb5-ns">{% endif %}
+
+        {% if site.title %}<h1 class="f3 ma0 pa0"><a class="dark-green" href="/">{{ site.title }}</a></h1>{% endif %}
+
+        {% if site.tagline %}<p class="mt2 gray">{{ site.tagline }}</p>{% endif %}
+
+        {% if site.tagline %}</header>{% else %}</div>{% endif %}

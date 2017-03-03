@@ -1,0 +1,15 @@
+<article class="pb4 bt b--light-gray">
+
+    {% if post.image %}
+
+    <p><img src="/images/{{ post.image }}" alt="{% if post.alt %}{{ post.alt }}{% endif %}"></p>
+
+    {% else %}
+
+    {{ post.content }}
+
+    {% endif %}
+
+    <p class="f6"><a href="{{ post.url }}" class="gray hover-dark-green"><time datetime="{{ post.date | date: "%b %-d, %Y" }}">{{ post.date | date_to_string }}</time></a></p>
+
+</article>
