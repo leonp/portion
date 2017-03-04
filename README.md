@@ -2,7 +2,13 @@
 
 A very simple Jekyll theme for publishing short updates or images.
 
-Demo at [This day’s portion](https://www.thisdaysportion.xyz).
+See it at [This day’s portion](https://www.thisdaysportion.xyz).
+
+## Installation
+
+- Make sure you have [Bundler](http://bundler.io/) installed
+- `git clone https://github.com/leonp/portion.git`
+- `bundle install`
 
 ## Pagination
 
