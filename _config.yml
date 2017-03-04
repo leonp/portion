@@ -5,7 +5,6 @@ permalink: pretty
 title: "This day’s portion"
 tagline: One of your five a day, every day, in imagistic and paragraphical formats
 paginate: 10
-baseurl: ""
 lang: en-gb
 credit: yes
 
