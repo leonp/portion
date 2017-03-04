@@ -8,6 +8,7 @@ See it at [This day’s portion](https://www.thisdaysportion.xyz).
 
 - Make sure you have [Bundler](http://bundler.io/) installed
 - `git clone https://github.com/leonp/portion.git`
+- `cd portion`
 - `bundle install`
 
 ## Pagination
