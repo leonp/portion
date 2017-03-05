@@ -35,6 +35,7 @@ Set the following in `_config.yml`:
 - `baseurl`
 - `site.analytics_id` (your Google Analytics ID)
 - `credit` (toggle link to Github repo in site footer)
+- `baseurl` (sets the feed base URL, don't add a training slash)
 
 ## Posts
 
