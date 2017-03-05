@@ -13,9 +13,13 @@ See it at [This day’s portion](https://www.thisdaysportion.xyz).
 
 ## Pagination
 
-Includes `Gemfile` and `_config.yml` entries to enable pagination and set up an <abbr title="Really Simple Syndication">RSS</abbr>. Does mean you won't be able to use this theme on Github Pages. Try [Netlify](https://netlify.com) instead and you'll get free SSL too.
+Includes `Gemfile` and `_config.yml` entries to enable pagination. Does mean you won't be able to use this theme on Github Pages. Try [Netlify](https://netlify.com) instead and you'll get free SSL too.
 
 Set the number of posts per page with the `paginate` variable in `_config.yml`.
+
+## RSS feed
+
+Find the site feed at `/feed/index.xml`.
 
 ## Styles
 
