@@ -7,7 +7,7 @@ tagline: One of your five a day, every day, in imagistic and paragraphical forma
 paginate: 10
 lang: en-gb
 credit: yes
-baseurl: https://www.thisdaysportion.xyz
+feedurl: "https://www.thisdaysportion.xyz"
 
 # Gems
 gems:
