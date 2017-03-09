@@ -3,11 +3,11 @@ permalink: pretty
 
 # Setup
 title: "This day’s portion"
-tagline: One of your five a day, every day, in imagistic and paragraphical formats
-paginate: 10
+tagline: I thought it was just me
+paginate: 5
 lang: en-gb
 credit: yes
-baseurl: https://www.thisdaysportion.xyz
+feedurl: "https://www.thisdaysportion.xyz"
 
 # Gems
 gems:

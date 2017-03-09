@@ -19,7 +19,7 @@ Set the number of posts per page with the `paginate` variable in `_config.yml`.
 
 ## RSS feed
 
-Find the site feed at `/feed/index.xml`.
+Find the site feed at `/feed/index.xml`. Make sure you set `feedurl` to your site's root address in `_config.yml` to generate correct links to your live RSS feed.
 
 ## Styles
 
@@ -32,10 +32,9 @@ Set the following in `_config.yml`:
 - `lang` e.g `en-gb` for use in `html` and `link` elements in header
 - `title`
 - `tagline` (displayed under the site title)
-- `baseurl`
+- `feedurl` (set to your live site root URL)
 - `site.analytics_id` (your Google Analytics ID)
 - `credit` (toggle link to Github repo in site footer)
-- `baseurl` (sets the feed base URL, don't add a training slash)
 
 ## Posts
 
