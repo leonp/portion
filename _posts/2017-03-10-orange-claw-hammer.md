@@ -1,0 +1,6 @@
+---
+layout: post
+title: Trout Mask Replica
+---
+
+TFW&hellip; you finally start to _get_ an artist, or piece of art. It happened to me driving back from the gym, playing one of the two CDs I have to hand in the car. I'm not sure why I chose these two. One is a Kinks singles collection, which I played on every journey for about three months. It is of course impossible not to love The Kinks deeply. The other is <cite>Trout Mask Replica</cite>, which is less lovable. The song was <cite>Orange Claw Hammer</cite> and I was turning into the slip road that leads into the Waitrose car park. It's just Beefheart's blues growl, sometimes stumbling over the lines, and it was so rich, magical. It was eight minutes to seven in the evening and it was dark and mild. I was going to buy lager. I don't like the blues that much, just John Lee Hooker and Junior Kimbrough, really, but this was breathtaking, followed rightly, righteously by totally controlled cacophony.
