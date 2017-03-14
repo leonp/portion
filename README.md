@@ -1,6 +1,6 @@
 # Portion
 
-A very simple Jekyll theme for publishing short updates or images.
+A very simple Jekyll theme for publishing short notes or images. By <q>short updates</q> I mean one paragraph with no title, and by <q>images</q> I mean an image with no text; not even a caption.
 
 See it at [This day’s portion](https://www.thisdaysportion.xyz).
 
@@ -38,6 +38,6 @@ Set the following in `_config.yml`:
 
 ## Posts
 
-Use the `post` layout.
+Use the `post` layout whether you're posting a note or an image.
 
 Add `image` amd `alt` YAML to specify an image that sits in the `/images/` folder. So if you add `image: happy.jpg` to a post the theme will output `/images/happy.jpg`. When you specify an image the theme won't display any other content.
