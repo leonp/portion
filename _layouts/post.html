@@ -12,7 +12,9 @@
 
     <p><img src="/images/{{ page.image }}" alt="{% if page.alt %}{{ page.alt }}{% endif %}"></p>
 
-    {% else %}
+    {% endif %}
+
+    {% if page.content.size > 1 %}
 
     <div class="measure c-prose">
 
