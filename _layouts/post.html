@@ -1,8 +1,12 @@
 {% include header.html %}
 
-<article class="pb4 bt b--light-gray">
+<article class="pt2 pb4 bt b--light-gray">
 
-    <p>{{ is_post }}</p>
+    {% if page.title %}
+
+    <h1 class="ma0 f4">{{ page.title }}</h1>
+
+    {% endif %}
 
     {% if page.image %}
 

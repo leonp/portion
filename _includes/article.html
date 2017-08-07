@@ -1,10 +1,18 @@
-<article class="pb4 bt b--light-gray">
+<article class="pt2 pb4 bt b--light-gray">
+
+    {% if post.title %}
+
+    <h1 class="ma0 f4"><a class="dark-gray hover-dark-green no-underline" href="{{ post.url }}">{{ post.title }}</a></h1>
+
+    {% endif %}
 
     {% if post.image %}
 
     <p><img src="/images/{{ post.image }}" alt="{% if post.alt %}{{ post.alt }}{% endif %}"></p>
 
-    {% else %}
+    {% endif %}
+
+    {% if post.content %}
 
     <div class="measure c-prose">
 
