@@ -8,6 +8,8 @@ paginate: 5
 lang: en-gb
 credit: yes
 feedurl: "https://www.thisdaysportion.xyz"
+footer-description: 'The journal of <a href="https://www.leonpaternoster.com" class="dark-gray b hover-dark-green">Leon Paternoster</a>.'
+meta-description: "Notes and photos on any subject from Leon Paternoster."
 
 # Gems
 gems:
