@@ -15,10 +15,11 @@
 
         <title>{{ page.title }} &#8212; {{ site.title }}</title>
 
-        <link rel="stylesheet" href="https://unpkg.com/tachyons/css/tachyons.min.css">
         <link rel="alternate" type="application/atom+xml" {% if site.title %}title="{{ site.title }}"{% endif %} {% if site.lang %} hreflang="{{ site.lang }}"{% endif %} href="/feed/index.xml">
 
         <style>
+
+            {% include tachyons.html %}
 
             html {
                 font-size: calc(100% + 0.1vw);

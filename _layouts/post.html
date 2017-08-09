@@ -24,7 +24,7 @@
 
     {% endif %}
 
-    <p class="f6"><time datetime="{{ page.date | date: "%b %-d, %Y" }}">{{ page.date | date: "%b %-d, %Y" }}</time></p>
+    <p class="f6"><time datetime="{{ page.date | date: "%b %-d, %Y" }}">{{ page.date | date_to_string }}</time></time></p>
 
 </article>
 
