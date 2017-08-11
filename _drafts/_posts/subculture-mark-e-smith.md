@@ -5,4 +5,6 @@ layout: post
 ---
 
 
-> Sometimes with old tracks, I am reading out what I’ve written, and I don’t understand half of it - but it sounds good. I listen to people and their conversations, but I also misinterpret things - a bit of a Smith family trait that. But I try to put humour in there too. Not everyone gets the jokes. The Russian fans get the jokes actually - they get them.
+<blockquote>
+<p>I use different methods to write - at the moment I am getting up at 6 am and writing until 9 am. Writing notes down straight from sleep, what’s in your dreams - just when it is clear in your head. The meaning is getting clearer now. An old way of writing I am coming back to.</p>
+</blockquote>
