@@ -6,5 +6,6 @@ layout: post
 
 
 <blockquote>
-<p>I use different methods to write - at the moment I am getting up at 6 am and writing until 9 am. Writing notes down straight from sleep, what’s in your dreams - just when it is clear in your head. The meaning is getting clearer now. An old way of writing I am coming back to. &lt;cite&gt;&lt;a href="https://www.fredperry.com/subculture/playlist-profile-mark-e-smith"&gt;MES&lt;/a&gt;&lt;/cite&gt;</p>
-</blockquote>
+<p>I use different methods to write - at the moment I am getting up at 6 am and writing until 9 am. Writing notes down straight from sleep, what’s in your dreams - just when it is clear in your head. The meaning is getting clearer now. An old way of writing I am coming back to.<br></p></blockquote>
+
+[Fred Perry MES interview](https://www.fredperry.com/subculture/playlist-profile-mark-e-smith)
