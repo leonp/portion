@@ -1,7 +1,7 @@
 ---
 title: North of Zembla
 layout: post
-image: "/earthsea.jpg"
+image: "earthsea.jpg"
 alt: A map of the Earthsea world
 ---
 
