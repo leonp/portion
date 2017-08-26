@@ -13,6 +13,18 @@
 
         {% endif %}
 
+        {% if page.is_post and site.twitter %}
+
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@{{ site.twitter }}" />
+        <meta name="twitter:title" content="{{ page.title }}" />
+        <meta name="twitter:description" content="{{ page.excerpt  | strip_html | | truncatewords: 7 }}" />
+        {% if page.image %}
+        <meta name="twitter:image" content="https://www.leonpaternoster.com/images/{{ page.img }}" />
+        <meta name="twitter:image:alt" content="{{ page.alt }}" />
+        {% endif %}
+        {% endif %}
+
         <title>{{ page.title }} &#8212; {{ site.title }}</title>
 
         <link rel="alternate" type="application/atom+xml" {% if site.title %}title="{{ site.title }}"{% endif %} {% if site.lang %} hreflang="{{ site.lang }}"{% endif %} href="/feed/index.xml">

@@ -10,7 +10,19 @@ credit: yes
 feedurl: "https://www.thisdaysportion.xyz"
 footer-description: 'The journal of <a href="https://www.leonpaternoster.com" class="dark-gray b hover-dark-green">Leon Paternoster</a>.'
 meta-description: "Notes and photos on any subject from Leon Paternoster."
+twitter: leonpaternoster
 
 # Gems
 gems:
   - jekyll-paginate
+
+# Enable is_post to check whether a page is a post
+
+defaults:
+-
+    scope:
+        path: ""      # empty string for all files
+        type: posts   # limit to posts
+    values:
+        is_post: true # automatically set is_post=true for all posts
+        layout: post
