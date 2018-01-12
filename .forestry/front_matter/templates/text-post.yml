@@ -1,0 +1,18 @@
+---
+pages:
+- _posts/2017-08-10-meaning-semantics-separation-utility-repetition.md
+- _posts/2017-08-11-subculture-mark-e-smith.md
+hide_body: false
+fields:
+- type: text
+  label: Title
+  name: title
+- type: select
+  name: layout
+  config:
+    source:
+      type: simple
+    options:
+    - post
+    - default
+  label: Layout

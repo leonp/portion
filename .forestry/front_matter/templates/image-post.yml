@@ -1,0 +1,34 @@
+---
+pages:
+- _posts/2017-08-10-the-glamour-of-manchester.md
+- _posts/2017-08-09-prevaricating.md
+- _posts/2017-08-20-berlin-alexanderplatz.md
+- _posts/2017-08-15-kobo-aura-one.md
+- _posts/2017-08-09-ip4-endz.md
+- _posts/2017-08-09-zavarovainaca-triglav-18.md
+- _posts/2017-08-07-medium.md
+- _posts/2017-08-07-st-mary-le-tower.md
+- _posts/2017-08-07-stuttgart-city-library.md
+- _posts/2017-08-06-syndics-of-the-drapers-guild.md
+hide_body: false
+fields:
+- type: select
+  name: layout
+  config:
+    source:
+      type: simple
+    options:
+    - post
+    - default
+  label: Layout
+- type: file
+  name: image
+  label: Image
+  description: Upload any image format. Forestry will add image frontmatter of the
+    filename. The theme will add the /images/ folder when it outputs the site.
+  config:
+    maxSize: '2'
+- type: text
+  name: alt
+  label: Alt text
+  description: Alt text for your image
